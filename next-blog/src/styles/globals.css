@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .disabled {
+        @apply opacity-50 cursor-not-allowed
+    }
+    .single-article h1{
+        @apply text-3xl font-bold my-2
+    }
+    .single-article h2{
+        @apply text-xl font-bold my-2
+    }
+    .single-article h3{
+        @apply text-lg font-bold my-2
+    }
+    .single-article pre{
+        @apply text-green-500 bg-gray-100 py-6 p-2
+    }
+    .single-article blockquote{
+        @apply text-green-500 bg-gray-100 border-l-4 m-4 p-4 border-primary
+    }
+}
